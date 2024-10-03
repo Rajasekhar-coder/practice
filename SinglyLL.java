@@ -146,6 +146,7 @@ public class SinglyLL{
         sll.insertatbegin(45);
         sll.insertatend(58);
         sll.insertatend(12);
+        sll.insertatend(56);
         //sll.display();
         sll.insertat(13, 2);
         int len = sll.length();
