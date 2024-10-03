@@ -1,0 +1,14 @@
+h1{
+  text-align: center;
+}
+
+.container{
+  padding: 10px 0;
+  background-color: rgb(225, 32, 32);
+  width: 50%;
+  background: linear-gradient(90deg,rgb(200,85,235)50%,rgb(256,127,255)30%,rgb(20,231,156)20%);
+  margin: auto;
+}
+.one{
+background-color: rgb(255,0,0);
+}
