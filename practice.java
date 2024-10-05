@@ -2,12 +2,13 @@
 import java.util.*;
 public class practice{
     public int[] resizearry(int[] arr,int capacity){
-        int[] result = new int[capacity];
-        for(int i=0;i<arr.length;i++){
-            result[i] =arr[i];
-        }
-        return result;
-
+      int n = arr.length;
+      int[] result = new int[capacity];
+      for(int i=0;i<n;i++){
+        result[i] = arr[i];
+        
+      }
+    return result;
     }
     public void revesearray(int[] arr){
         int n = arr.length;
@@ -41,18 +42,22 @@ public class practice{
         return result;
     }
     
+
+    
     
     public static void main(String[] args) {
     practice obj = new practice();
 
-    int[] arr = {4,5,2,4,8,7};
+    int[] arr = {4,5,2,4};
     System.out.println(Arrays.toString(arr));
     //System.out.println("The of the original array:"+arr.length);
     //int[]  result = obj.resizearry(arr, 6);
     //obj.revesearray(arr);
     //cSystem.out.println(Arrays.toString(arr));
-    int[] result = obj.removeele(arr, 5);
+    //int[] result = obj.removeele(arr, 5);
+    int[] result = obj.resizearry(arr,6);
     System.out.println(Arrays.toString(result));
+    
 
     
 }
